@@ -1,34 +1,28 @@
 
 body {
-  background: url("Assets/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("Assets/stripes.png"), url("Assets/background.jpg");
+  background-size: auto, cover;
+  background-repeat: repeat-x,no-repeat;
   font-family: Helvetica;
   font-size: 20px;
   color: #FFFFFF;
-  height: 5%;
-  width: auto;
-  padding: 10%;
-  margin-left: auto;
-  font-weight: lighter;
-  line-height: 3;
+  font-weight: 100;
 }
 
 
 hr { 
-  margin-left: 98%;
-  margin-right: 98%;
+  margin: 0;
   width: 4%;
-  height: 15%;
-  border-color: #FF3333;
-  margin-left: auto;
+  height: 2px;
+  background-color: #FF3333;
+  border: none;
 }
 
 
 div {
-background: url("Assets/stripes.png");
-background-repeat: repeat-x;
-height: 13px;
+  width: auto;
+  padding: 10%;
+  margin-left: auto;
 }
 
 
