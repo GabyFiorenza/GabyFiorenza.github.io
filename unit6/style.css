@@ -3,15 +3,22 @@ body {
 }
 
 h1 {
-	background: #FFE999;
   float: left;
 }
 
+header{
+    background: #FFE999;
+    width: 100%;
+    height: auto;
+    padding: 
+    margin: ;
+}
+
 nav {
-  background-color: #FFE999;
   font-family: 'Oxygen', sans-serif;
   font-weight: lighter;
   font-size: 18px;
+  float: right;
 }
 
 .clearfix:after {
@@ -36,7 +43,7 @@ a:hover {
   background-color: #FFFFFF ;
 }
 
-div {
+#main{
  background-color: #FFFFFF;
  padding: 11%;
  margin: 25px;
@@ -98,7 +105,13 @@ figure:focus {
   line-height: 30px;
 }
 
-#contact {
+main{
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+#contact { ---move to main
   background-color: #FFFFFF;
   font-family: 'Oxygen', sans-serif;
   font-size: 17px;
@@ -110,12 +123,18 @@ figure:focus {
 
 #footer {
   background: #FFE999;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   font-family: 'Oxygen', sans-serif;
   font-weight: lighter;
   text-align: center;
   font-size: 15px;
   font-height:10px;
   padding: 2%;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 
 }
 
